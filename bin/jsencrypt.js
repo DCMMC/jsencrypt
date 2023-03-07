@@ -15,7 +15,7 @@
 		exports["JSEncrypt"] = factory();
 	else
 		root["JSEncrypt"] = factory();
-})(window, function() {
+})(window, () => {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -176,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((module) => {
 
-eval("module.exports = {\"version\":\"3.2.1\"};\n\n//# sourceURL=webpack://JSEncrypt/./lib/version.json?");
+eval("module.exports = {\"version\":\"3.2.2\"};\n\n//# sourceURL=webpack://JSEncrypt/./lib/version.json?");
 
 /***/ })
 
